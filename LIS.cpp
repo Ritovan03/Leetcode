@@ -1,3 +1,6 @@
+#include <vector>
+using namespace std;
+
 class Solution {
 public:
     int helper(vector<int> &nums, vector<vector<int>> &dp, int curr, int prev,int n) {
